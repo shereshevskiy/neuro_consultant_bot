@@ -18,17 +18,18 @@ Before running the bot, create a new Telegram bot using [BotFather](https://core
 
 1. Open Telegram and search for **BotFather**.
 2. Start a chat with BotFather and send the command:
+
 ```
 /newbot
 ```
 
-3.	Follow the instructions to set up your bot:
-•	Provide a name for your bot (e.g., ChatGPT Assistant).
-•	Choose a unique username for your bot (e.g., chatGPT_UAI_bot).
-4.	Once the bot is created, BotFather will provide you with a bot token. Copy this token; you’ll need it to configure the bot.
-5.	Add the token to your .env file:
-```TG_TOKEN=your_telegram_bot_token```
-6.	Use the bot’s username (e.g., @chatGPT_UAI_bot) to interact with your bot in Telegram after setup.
+* Follow the instructions to set up your bot:   
+  •	Provide a name for your bot (e.g., ChatGPT Assistant).
+  •	Choose a unique username for your bot (e.g., chatGPT_UAI_bot).
+* Once the bot is created, BotFather will provide you with a bot token. Copy this token; you’ll need it to configure the bot.
+* Add the token to your .env file:
+  ``TG_TOKEN=your_telegram_bot_token``
+* Use the bot’s username (e.g., @chatGPT_UAI_bot) to interact with your bot in Telegram after setup.
 
 ## Installation
 
