@@ -2,6 +2,8 @@
 
 This project is a Telegram bot that uses ChatGPT for processing user questions. It features asynchronous communication with the backend, user request tracking, and request history management.
 
+The bot leverages **RAG (Retrieval-Augmented Generation)** technology, integrating a custom-built knowledge base specifically designed for this bot. This enables the bot to retrieve relevant context from the knowledge base and provide more accurate and informed responses to user queries.
+
 ## Features
 
 - **ChatGPT Integration**: Users can ask questions to ChatGPT.
