@@ -111,7 +111,7 @@ The bot interacts with ChatGPT using OpenAI’s API. It processes user input asy
 
 **3.**	 **Data Export** :
 
-    •	The **/data** command allows exporting user data to a JSON file, including history and remaining requests.
+•	The **/data** command allows exporting user data to a JSON file, including history and remaining requests.
 
 **Configuration**
 
@@ -119,7 +119,7 @@ The bot interacts with ChatGPT using OpenAI’s API. It processes user input asy
 
 Modify the number of requests per user or the history size by updating the configuration in **bot_run.py**.
 
-    • **Endpoints**:
+• **Endpoints**:
 
 Change backend API endpoints in the configuration section of the bot.
 
