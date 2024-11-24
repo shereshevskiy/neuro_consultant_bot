@@ -1,4 +1,4 @@
-# Telegram Bot with ChatGPT Integration
+# Telegram Bot with ChatGPT Integration and RAG Technology
 
 This project is a Telegram bot that uses ChatGPT for processing user questions. It features asynchronous communication with the backend, user request tracking, and request history management.
 
