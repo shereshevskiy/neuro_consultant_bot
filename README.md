@@ -115,7 +115,7 @@ The bot interacts with ChatGPT using OpenAI’s API. It processes user input asy
 
 **Configuration**
 
-    • **Customizable Limits**:
+• **Customizable Limits**:
 
 Modify the number of requests per user or the history size by updating the configuration in **bot_run.py**.
 
