@@ -164,14 +164,14 @@ Change backend API endpoints in the configuration section of the bot.
 
     •	Add support for customizable request limits per user.
 
-**License**
+## **License**
 
 This project is licensed under the MIT License.
 
-**Contributing**
+## **Contributing**
 
 Feel free to contribute to this project by creating a pull request or submitting issues in the GitHub repository.
 
-**Contact**
+## **Contact**
 
 For questions or feedback, please reach out to d.shereshevskiy@gmail.com
