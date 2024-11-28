@@ -14,6 +14,8 @@ The bot leverages **RAG (Retrieval-Augmented Generation)** technology, integrati
 
 ---
 
+## Installation
+
 ### 0. Create a Telegram Bot
 
 Before running the bot, create a new Telegram bot using [BotFather](https://core.telegram.org/bots#botfather). Follow these steps:
@@ -32,8 +34,6 @@ Before running the bot, create a new Telegram bot using [BotFather](https://core
 * Add the token to your .env file:
   ``TG_TOKEN=your_telegram_bot_token``
 * Use the bot’s username (e.g., @chatGPT_UAI_bot) to interact with your bot in Telegram after setup.
-
-## Installation
 
 ### 1. Clone the repository:
 
@@ -72,9 +72,9 @@ TG_TOKEN=your_telegram_bot_token
 GPT_SECRET_KEY=your_openai_secret_key
 ```
 
-### 4. Run the bot:
+## Run the bot:
 
-#### 1. Start the FastAPI server:
+### 1. Start the FastAPI server:
 
    From the `fastapi` directory, run the following command:
 
@@ -82,7 +82,7 @@ GPT_SECRET_KEY=your_openai_secret_key
    uvicorn main:app --port 5000
 ```
 
-#### 2.	Start the Telegram bot:
+### 2.	Start the Telegram bot:
 
 From the project root directory, run the following command:
 
@@ -90,7 +90,7 @@ From the project root directory, run the following command:
 python bot_run.py
 ```
 
-#### 3.	Interact with the bot:
+### 3.	Interact with the bot:
 
 Open Telegram and start chatting with the bot: @chatGPT_UAI_bot.
 
