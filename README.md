@@ -12,6 +12,11 @@ The bot leverages **RAG (Retrieval-Augmented Generation)** technology, integrati
 - **Data Export**: Saves the current state of user data (requests and history) to a JSON file with the `/data` command.
 - **Asynchronous Processing**: Leverages asynchronous communication for efficient request handling.
 
+## **Screenshot**
+
+Bot Interface
+
+![Bot Interface](bot_interface.png "Bot Interface")
 ---
 
 ## Installation
