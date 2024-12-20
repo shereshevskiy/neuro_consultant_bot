@@ -15,7 +15,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandl
 # подгружаем переменные окружения
 load_dotenv()
 
-ROOT_DIR_LESSON14 = Path(os.path.dirname(os.path.abspath(__file__)))
+ROOT_DIR = Path(os.path.dirname(os.path.abspath(__file__)))
 
 # передаем секретные данные в переменные
 TOKEN = os.environ.get("TG_TOKEN")
@@ -57,7 +57,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def data(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # создаем json и сохраняем в него словарь context.bot_data
-    with open(ROOT_DIR_LESSON14/'data.json', 'w') as fp:
+    with open(ROOT_DIR/'data.json', 'w') as fp:
         json.dump(context.bot_data, fp)
     
     # возвращаем текстовое сообщение пользователю
